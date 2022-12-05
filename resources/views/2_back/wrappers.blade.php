@@ -61,7 +61,7 @@
                         @endif
                         
                         @else
-                            <div style="text-transform: uppercase; color: #000">{{ Auth::user()->name }}</div>
+                            {{ Auth::user()->name }}
                             <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                                 {{ __('Logout') }}
                             </a>

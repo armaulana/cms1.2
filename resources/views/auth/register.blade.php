@@ -44,6 +44,9 @@
                                 {{ __('Register') }}
                             </button>
                         </div>
+                        <div class="form-group">
+                            <a href="{{ url('/login') }}">Login</a>
+                        </div>
                     </form>
                 </div>
             </div>

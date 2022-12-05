@@ -29,11 +29,11 @@
     <link rel="stylesheet" href="<?php echo asset('../assets/plugins/summernote/summernote-bs4.min.css'); ?>">
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <!-- Scripts 
-    @viteReactRefresh
-    @vite(['resources/sass/app.scss', 'resources/js/app.js'])-->
+    <!-- Scripts -->
+    <!-- @viteReactRefresh -->
+    <!-- @vite(['resources/sass/app.scss', 'resources/js/app.js']) -->
 </head>
-<body class="hold-transition login-page">
+<body class="hold-transition login-page text-sm">
 <div class="login-box">
     @yield('content')
 </div>
